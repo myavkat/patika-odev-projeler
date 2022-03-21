@@ -1,0 +1,51 @@
+.container {
+  display: grid;
+  height: 50vh;
+  margin-left: 4vh;
+  margin-right: 4vh;
+  grid-template-columns: 1fr 0.6fr 1.2fr;
+  grid-template-rows: 0.2fr 0.1fr 0.2fr 0.1fr;
+  grid-template-areas: "logo logo logo" "search search search" "undersearch1 undersearch2 undersearch3" "footer footer footer";
+  text-align: center;
+  gap: 0.2rem;
+  font-size: 1rem;
+}
+
+#logo {
+  grid-area: logo;
+}
+#search {
+  background-color: #eeeeee;
+  grid-area: search;
+}
+#undersearch1 {
+  background-color: #7ee5da;
+  grid-area: undersearch1;
+}
+#undersearch2 {
+  font-size: 0.8rem;
+  background-color: #70ccc2;
+  grid-area: undersearch2;
+}
+#undersearch3 {
+  font-size: 0.8rem;
+  background-color: #62b3aa;
+  grid-area: undersearch3;
+}
+#footer {
+  grid-area: footer;
+  font-size: 0.8rem;
+}
+p {
+  margin: 0px;
+}
+#search-bar {
+  width: 300px;
+}
+
+input:active {
+  border: black solid 3px;
+}
+a {
+  color: blue;
+}
