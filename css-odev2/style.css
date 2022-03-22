@@ -21,11 +21,13 @@
 #undersearch1 {
   background-color: #7ee5da;
   grid-area: undersearch1;
+  padding-top: 0.5rem;
 }
 #undersearch2 {
   font-size: 0.8rem;
   background-color: #70ccc2;
   grid-area: undersearch2;
+  padding-top: 0.5rem;
 }
 #undersearch3 {
   font-size: 0.8rem;
@@ -35,6 +37,7 @@
 #footer {
   grid-area: footer;
   font-size: 0.8rem;
+  padding-top: 0.5rem;
 }
 p {
   margin: 0px;
