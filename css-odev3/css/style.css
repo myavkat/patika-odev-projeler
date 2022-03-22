@@ -3,7 +3,7 @@
   margin: 10px;
   overflow: hidden;
   margin-right: 16px;
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
   font-size: 13px;
 }
 
@@ -13,6 +13,7 @@
   text-align: center;
   padding: 5px 5px;
   text-decoration: none;
+  float: right;
 }
 
 .headerli a:hover {
@@ -28,6 +29,7 @@
   background: #fff;
   display: flex;
   border: 1px solid #dfe1e5;
+  border-radius: 2rem;
   box-shadow: none;
   z-index: 3;
   height: 44px;
@@ -37,7 +39,7 @@
 }
 
 .search-area:hover {
-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
 }
 
 .search {
@@ -84,6 +86,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 .input {
   margin: 0;
   padding: 0;
+  border: 0px;
   color: rgba(0, 0, 0, 0.87);
   word-wrap: break-word;
   outline: none;
@@ -93,6 +96,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   font: 16px arial, sans-serif;
   line-height: 34px;
   height: 34px !important;
+  width: 480px;
   text-rendering: auto;
   letter-spacing: normal;
   word-spacing: normal;
@@ -102,6 +106,9 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: start;
   appearance: textfield;
   cursor: text;
+}
+.voice-search {
+  display: flex;
 }
 
 .googlesearch {
@@ -124,6 +131,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 
 .footer {
+  background-color: #f2f2f2;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -138,6 +146,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 
 .footerli {
   float: left;
+  list-style: none;
 }
 
 .footerli a {
@@ -154,4 +163,26 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 
 .footerli a:hover {
   text-decoration: underline;
+}
+
+.pic img {
+  border-radius: 50%;
+  width: 2rem;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.buttons button {
+  margin-right: 1rem;
+  border: 1px #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f6368;
+  font-size: 14px;
+  height: 36px;
+}
+
+.buttons button:hover {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
 }
